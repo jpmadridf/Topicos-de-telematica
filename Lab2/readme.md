@@ -1,4 +1,4 @@
-#Mapa mental y UBIDTOS
+# Mapa mental y UBIDTOS
 
 **MAPA MENTAL**
 
