@@ -4,7 +4,7 @@
 #
 # Profesor: EDWIN NELSON MONTOYA MUNERA, emontoya@eafit.edu.co
 #
-# <Lab 3>
+# <Lab 4>
 # 1. breve descripción de la actividad
 Desarrollar habilidades en el proceso de creación, despliegue y gestión de una aplicacion monolitica con balanceo y datos distribuidos, utilizando docker y aprender a asignar un certificado ssl válido a un dominio en Let's Encrypt. 
 <texto descriptivo>
