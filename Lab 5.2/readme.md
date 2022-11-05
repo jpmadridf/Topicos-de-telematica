@@ -99,6 +99,7 @@ a su vez se utiliza HUE para la verificacion de esto, se crean buckets en S3 par
 -![Creacion bucket](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/0.%20Creacion%20de%20bucket.png)
 - Accedemos a nuestra instancia EC2 que pertenezca al **MASTER**.
 - Una vez dentro de la instancia mostramos los archivos locales.
+-
 ![Archivos locales](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/1.%20Se%20conecta%20via%20SSH%20y%20se%20confirma%20la%20existencia%20de%20los%20archivos.png)
 - Se envian los archivos locales a S3.
 ![Envio de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/2.%20Se%20realiza%20la%20copia%20a%20un%20nuevo%20bucket.png)
