@@ -65,7 +65,7 @@ a su vez se utiliza HUE para la verificacion de esto, se crean buckets en S3 par
 ![Directorios HUE](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/SSH/1.%20Mostrar%20directorios.png)
 - Dentro de la instancia debemos de crear un directorios **datasets** donde almacenaremos los archivos de forma local.
 - Mostramos los directorios de local.
-![Directorios locales]https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/SSH/2.%20Mostrar%20directorios%20local%20con%20datasets.png)
+![Directorios locales](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/SSH/2.%20Mostrar%20directorios%20local%20con%20datasets.png)
 - Creamos un directorio en HUE de datasets.
 ![Directorio datasets HUE](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/SSH/3.%20creacion%20directorio%20en%20hadoop%20de%20datasets.png)
 - Realizamos la copia de local a HUE con los comandos al directorio creado en HUE.
