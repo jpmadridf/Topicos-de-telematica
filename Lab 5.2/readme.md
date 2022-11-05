@@ -86,7 +86,7 @@ a su vez se utiliza HUE para la verificacion de esto, se crean buckets en S3 par
 - Se crea un bucket para el manejo de archivos.
 ![Bucket](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/2.%20Se%20crea%20un%20bucket.png)
 -  Una vez creado el bucket, seleccionamos la opcion de **upload** y seleccionamos los archivos que deseamos subir.
-![Upload de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/3.%20Se%20selecciona%20los%20archivos%20y%20se%20suben.png
+![Upload de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/3.%20Se%20selecciona%20los%20archivos%20y%20se%20suben.png)
 - Se guardan los archivos en HUE.
 ![Archivos HUE](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/4.%20Quedan%20los%20datos%20en%20S3.png)
 - Se verifica la creacion del bucket y archivos en S3 en AWS.
