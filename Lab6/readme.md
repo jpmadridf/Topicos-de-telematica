@@ -144,7 +144,7 @@ en terminal como en Jupyter.
 
 #### HIVE y SparkSQL, gestión de datos vía SQL
 
-- Creaar tabla HDI en HDFS.
+- Crear tabla HDI en HDFS.
 -![Creacion tabla](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/1.%20Crear%20la%20tabla%20HDI%20en%20HDFS.png)
 
 - Se realiza una consulta.
@@ -153,7 +153,7 @@ en terminal como en Jupyter.
 - Se ejecuta JOIN con HIVE.
 ![JOIN](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/3.%20EJECUTAR%20UN%20JOIN%20CON%20HIVE.png)
  
- - Uso de **wordcount**
+ #### Uso de **wordcount**
  - Ordenado por palabra
 ![Palabra](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/4.%20ordenado%20por%20palabra.png)
 
