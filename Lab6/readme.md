@@ -126,42 +126,45 @@ en terminal como en Jupyter.
 
 #### Replique, ejecute y ENTIENDA el notebook: Data_processing_using_PySpark.ipynb con los datos respectivos.
 
-- Se crea.
-![S3 HUE](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/1.%20Entrar%20a%20HUE%20y%20estar%20en%20la%20pestana%20de%20S3.png)
+- Se configura Jupyter.
+![Configuracion](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/1.%20Se%20configura.png)
 
-- Se crea un bucket para el manejo de archivos.
-![Bucket](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/2.%20Se%20crea%20un%20bucket.png)
+- Se corre los comandos del siguiente archivo: https://github.com/st0263eafit/st0263-2022-2/blob/main/bigdata/03-spark/Data_processing_using_PySpark.ipynb
 
--  Una vez creado el bucket, seleccionamos la opcion de **upload** y seleccionamos los archivos que deseamos subir.
-![Upload de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/3.%20Se%20selecciona%20los%20archivos%20y%20se%20suben.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/2.%20Se%20corre%20comandos.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/3.%20comandos.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/4.%20Comandos.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/5.%20Comandos.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/6.%20comaandos.png)
+![Comandos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%202/7.%20comandos.png)
 
-- Se guardan los archivos en HUE.
-![Archivos HUE](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/4.%20Quedan%20los%20datos%20en%20S3.png)
+**Nota**: Todos los comandos fueron ejecutados y se guardo el archivo.
 
-- Se verifica la creacion del bucket y archivos en S3 en AWS.
-![S3 AWS](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20HUE/5.%20Se%20revisa%20AWS.png)
+### Parte 3:
 
-### Manejo de archivos desde SSH a S3:
-- Primero creamos un bucket en S3 para la recepcion de archivos.
--![Creacion bucket](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/0.%20Creacion%20de%20bucket.png)
+#### HIVE y SparkSQL, gestión de datos vía SQL
 
-- Accedemos a nuestra instancia EC2 que pertenezca al **MASTER**.
-- Una vez dentro de la instancia mostramos los archivos locales.
+- Creaar tabla HDI en HDFS.
+-![Creacion tabla](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/1.%20Crear%20la%20tabla%20HDI%20en%20HDFS.png)
 
-![Archivos locales](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/1.%20Se%20conecta%20via%20SSH%20y%20se%20confirma%20la%20existencia%20de%20los%20archivos.png)
+- Se realiza una consulta.
+![Consulta](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/2.%20Se%20realizo%20consultas.png)
 
-- Se envian los archivos locales a S3.
-![Envio de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/2.%20Se%20realiza%20la%20copia%20a%20un%20nuevo%20bucket.png)
+- Se ejecuta JOIN con HIVE.
+![JOIN](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/3.%20EJECUTAR%20UN%20JOIN%20CON%20HIVE.png)
+ 
+ - Uso de **wordcount**
+ - Ordenado por palabra
+![Palabra](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/4.%20ordenado%20por%20palabra.png)
 
-![Envio de archivos](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/2.1%20Se%20copian%20el%20resto%20de%20archivos.png)
-
-- Se verifican en S3 la recepcion de los archivos.
-![Verificacion](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab%205.2/S3%20SSH/3.%20se%20confirma%20la%20existencia%20de%20los%20datos%20en%20S3.png)
+- Ordenado por frecuencia.
+![Frecuencia](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Lab6/Parte%203/5.%20%20ordenado%20por%20frecuencia%20de%20menor%20a%20mayor.png)
 
 
 # 4. Información relevante
 
 ## Referencias:
-- https://github.com/st0263eafit/st0263-2022-2/tree/main/bigdata/01-hdfs
-- https://github.com/st0263eafit/st0263-2022-2/blob/main/bigdata/01-hdfs/hdfs-scripts.txt
-- https://github.com/st0263eafit/st0263-2022-2/blob/main/bigdata/lab5-2-hdfs-s3.txt
+- https://github.com/st0263eafit/st0263-2022-2/tree/main/bigdata/04-hive-sparksql
+- https://github.com/st0263eafit/st0263-2022-2/tree/main/bigdata/03-spark
+- https://github.com/st0263eafit/st0263-2022-2/blob/main/bigdata/03-spark/Data_processing_using_PySpark.ipynb
+- https://github.com/st0263eafit/st0263-2022-2/blob/main/bigdata/03-spark/wordcount-spark.ipynb
