@@ -46,7 +46,7 @@ Todo lo propuesto ha sido implementado.
 
 ## 1. Cargar datos desde Google Drive y AWS S3
 
-- **Nota**: Se realizan mas pasos que estan especificados en los documentos ipynb.
+- **Nota**: Se realizan mas pasos que estan especificados en los documentos [ipynb](https://github.com/jpmadridf/Topicos-de-telematica/tree/main/Proyecto%203/ipynb).
 
 ### Google Drive
 
