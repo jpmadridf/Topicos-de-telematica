@@ -143,7 +143,7 @@ El analisis se hizo en dos notebooks distintos, cargando los datos desde Google 
 
 ![4](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Proyecto%203/3.%20Spark/4..png)
 
-3.5) Distribución de casos por genero:
+3.5) Distribución de casos por estado:
 
 - Dataframe:
 
@@ -164,7 +164,7 @@ El analisis se hizo en dos notebooks distintos, cargando los datos desde Google 
 
 **URI:** s3://jpmadridfp3/proyecto3resultado/
 
-![s3](https://github.com/jpmadridf/Topicos-de-telematica/tree/main/Proyecto%203/4.%20Guarda%20datos%20en%20bucket)
+![s3](https://github.com/jpmadridf/Topicos-de-telematica/blob/main/Proyecto%203/4.%20Guarda%20datos%20en%20bucket/2.%20Verificacion.png)
 
 
 # 4. Información relevante
